@@ -1,0 +1,157 @@
+body, html{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    background-color: #fff7c0;
+    color: #000011;
+    overflow:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90%;
+    min-width: 100%;
+    margin:0;
+    scroll-behavior: smooth;
+    top:0;
+}
+
+#main-intro {font-size: 40px; margin: 0px; }
+#projects-body, #connect-main {padding: 10px;}
+
+#index-main {
+    width:100%; 
+    min-height: 90%;
+    top:100px; 
+    bottom:100px; 
+    display:flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+#projects-main{
+    text-align: center;
+}
+
+#about-me {
+    font-size: 20px;
+}
+
+#links {
+    padding: 20px;
+}
+
+#github {
+    height:1em;
+    width:auto;
+}
+
+#linkedin {
+    height: 1em;
+    width:auto;
+}
+
+#Sarah {width: 25%;
+height: 25%;
+padding: 20px;}
+
+h1 {font-size: 45px;}
+
+h2 {font-size: 35px;}
+
+a {
+    color: #000011; 
+    font-weight:bold; 
+    text-decoration: none;}
+
+a:hover { color: #E99A43; }
+
+ul, li {
+    list-style-type: none; 
+    padding: 1px 1px; 
+    margin: 0px 0px;}
+
+nav {
+    flex-grow: 0; 
+    text-align: center; 
+    max-width: 740px; 
+    padding: 25px;
+}
+
+nav ul {
+    padding: 10px; 
+    margin: 0px; 
+}
+
+nav li { 
+    display: inline-block; 
+    text-align: center; 
+    font-size: 30px; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+
+figcaption {
+    font-family: 'Inconsolata', monospace;
+}
+
+section {
+    padding: 10px;
+}
+
+#copyright {
+    font-family: 'Inconsolata', monospace;
+    width:100%;
+    text-align: center;
+}
+
+.boxed {
+    font-size:20px;
+    font-weight: bold;
+}
+
+.boxes{
+    padding:10px; 
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.box {
+    color: #000011;
+    background-color: #E99A43;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 5px 10px;
+    border-radius: 15px;
+    white-space: nowrap;
+}
+
+.project-name{
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+}
+
+.project {
+    padding: 10px;
+    font-size: 15px;
+}
+
+@media (max-width: 768px){
+    #main-intro, #projects-body {
+        display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		max-width: 90%;
+        max-height: 90%;
+        padding: 30px;
+    }
+}
